@@ -6,7 +6,7 @@
                     <img v-bind:src="product.get_image">
                 </figure>
 
-                <h1 class="title">{{  product.name }}</h1>
+                <h1 class="title">{{ product.name }}</h1>
 
                 <p>{{ product.description }}</p>
             </div>
