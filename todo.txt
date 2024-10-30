@@ -1,10 +1,13 @@
+Commit updates:
+- Fixed HTTP error login auth bug. Issue was missing `.` 
+this.$router.push(toPath) was not properly pushing users from the login page back to cart.
+- Created 'MyAccount' page
+- Created 'Checkout' page
+
 Bugs to investigate:
 - Product.vue and Cart.vue not pulling data for product template sections properly
-- Running into HTTP error with login authentication token
 
-Once these are fixed, moving forward on guide:
-- Create "my account" page
-- Proceed to checkout (auth)
+Moving forward on guide:
 - Create a "success" page
 - Show "my orders" on account page (as components)
 - Deploy Django -- create server, install software, create users + venv, packages/files, etc.

@@ -79,7 +79,7 @@ export default {
 
                     const toPath = this.$route.query.to || '/cart'
 
-                    this$router.push(toPath)
+                    this.$router.push(toPath)
                 })
                 .catch(error => {
                     if (error.response) {
